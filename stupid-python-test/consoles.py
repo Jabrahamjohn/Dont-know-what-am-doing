@@ -4,6 +4,7 @@ class HelloWorld(cmd.Cmd):
     intro = 'Hello welcome to not knowing and knowing, type help or ? to list a greeting'
     prompt = 'CONSOLE'
     file = None
+    
     def do_greetings(self,line):
         print ("Hi AJ here.how are you ?")
 
