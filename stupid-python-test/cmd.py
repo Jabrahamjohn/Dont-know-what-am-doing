@@ -6,7 +6,7 @@ class person(cmd.Cmd):
     file = None
 
     def greetings(self,line):
-        print "Hi AJ here.how are you ?"
+        print ("Hi AJ here.how are you ?")
 
     def EOF(self, line):
         return True
