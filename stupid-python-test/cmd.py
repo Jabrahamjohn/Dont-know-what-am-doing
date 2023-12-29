@@ -5,10 +5,10 @@ class person(cmd.Cmd):
     prompt = 'aj'
     file = None
 
-    def greetings(self,line):
+    def do_greetings(self,line):
         print ("Hi AJ here.how are you ?")
 
-    def EOF(self, line):
+    def do_EOF(self, line):
         return True
 if __name__ == '__main__':
-    person().cmdloop
+    person().cmdloop()
